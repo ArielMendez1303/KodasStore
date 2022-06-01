@@ -1,0 +1,143 @@
+.img-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.carousel .carousel-indicators button {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+}
+
+.text-purple {
+    color: #0058bd;
+}
+
+.imagen-circular {
+    width: 150x;
+    height: 150px;
+    border-radius: 100%;    
+}
+
+.imagen-circular-card {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;    
+}
+
+.img-clima {
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-img{
+    width: 1080px;
+    height: 1920px;
+}
+
+.ml-3{
+    margin-left: 3rem;
+}
+
+.ml-2{
+    margin-left: 2rem;
+}
+
+
+.ml-1{
+    margin-left: 1rem;
+}
+.margen-izquierda{
+    margin-left: 12rem;
+}
+.negrita{
+    font-weight: bold;
+}
+
+.carrito{
+    height: 50px;
+    width: 100px;
+
+}
+.carrito-large{
+    height: 100px;
+    width:  100px;
+
+}
+.izquierda-carro{
+    position: relative;
+    right: -70rem;
+}
+
+.reloj{
+    width:75px;
+    height:75px;
+    border-radius:100%;
+    background-color: #ededed;
+    background-size:100%;
+    border: 10px rgb(0, 0, 0.5);
+    display:flex;
+}
+.reloj img{
+    position:relative;
+    height:75px;
+}
+.reloj #horas{
+    position:absolute;
+}
+.reloj #minutos{
+    position:absolute;
+}
+.reloj #segundos{
+    position:absolute;
+}
+
+.form-register{
+    width:400px;
+    padding:30px;
+    background-color:  #0dcaf0;
+    margin:auto;
+    margin-top:100px;
+    border-radius:5px;
+    font-family:'calibri';
+    color:#0d6efd;
+}
+
+.form-register h4{
+    font-size:22px; 
+    margin-bottom:20px;
+    font-weight: bold;
+}
+
+.controls{
+    width:100%;
+    background:#0dcaf0;
+    padding:10px;
+    border-radius:4px;
+    margin-bottom:16px;
+    border:1px solid#010e2b;
+    font-family:'calibri';
+    font-size:18px;
+    color:#010e2b;
+}
+
+.form-register p {
+    height:40px;
+    text-align:center;
+    font-size:17px;
+}
+.form-register a {
+    color:rgb(3, 24, 141);
+    text-decoration:none;
+}
+.form-register button{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.img-accordion{
+    width: 30rem;
+    height: 20rem;
+}
