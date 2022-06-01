@@ -39,18 +39,24 @@
                         <a class="nav-link" href="comida.html">Comida</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="mindicador.html">Juguetes</a>
+                        <a class="nav-link" href="juguetes.html">Juguetes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pokemon.html">Ropa</a>
+                        <a class="nav-link" href="ropa.html">Ropa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="openweathermap.html">Accesorios</a>
+                        <a class="nav-link" href="accesorios.html">Accesorios</a>
                     </li>
                 </ul>
-                <a href="compra.html">
-                    <img class="carrito" style="margin-left: 80rem;" src="assets/img/Gatito-carrito.png" alt="Gatito-carrito">
+                <a class="izquierda-carro" href="compra.html">
+                    <img class="carrito" id="carrito" src="assets/img/Gatito-carrito.png" alt="Gatito-carrito">
                 </a>
+                <div class="reloj" id="clock-weather">
+                    <img src="assets/img/reloj/giro.png" alt="Fondo">
+                    <img src="assets/img/reloj/aguja.png" alt="Aguja de horas" id="horas">
+                    <img src="assets/img/reloj/agujaMinutos.png" alt="Aguja puntero minutos" id="minutos">
+                    <img src="assets/img/reloj/agujasegundos.png" alt="Aguja puntero segundos" id="segundos">
+                </div>
             </div>   
         </div>
     </nav>
@@ -63,6 +69,12 @@
                 <h4>Formulario Registro </h4>
                 <input class="controls" type="text" name="nombre" id="nombres" placeholder="Ingrese su nombre">
                 <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su apellido">
+                <input class="controls" type="text" name="rut" id="rut" placeholder="Ingrese Rut">
+                <input class="controls" type="text" name="Region" id="Region" placeholder="Ingrese Región">
+                <input class="controls" type="text" name="Ciudad" id="Ciudad" placeholder="Ingrese Ciudad">
+                <input class="controls" type="text" name="Comuna" id="Comuna" placeholder="Ingrese Comuna">
+                <input class="controls" type="text" name="postal" id="codigo postal" placeholder="Ingrese Codigo postal">
+                <input class="controls" type="number" name="numero" id="gatos" placeholder="Ingrese Numero de gatos que posee">
                 <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese Correo">
                 <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese contraseña">
                 <p>Estoy de acuerdo con los <a href="https://www.gstatic.com/policies/terms/pdf/20220105/it7r24p9/google_terms_of_service_es.pdf">Termino y condiciones</a></p>
@@ -75,7 +87,12 @@
     <!--Fin Sección MAIN-->
 
     <!--INICIO Seccion FOOTER-->
-    <footer>
+    <footer >
+        <div class="container-fluid">
+            <div>
+                <p id="info-clima"></p>
+            </div>
+        </div>
         <div class="container-fluid py-5 mt-2 bg-light text-white">
             <div class="row text-primary">
                 <div class="col-md-4 text-center mb-3">
@@ -95,13 +112,16 @@
                             <a class="nav-link" href="comida.html">Comida</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mindicador.html">Juguetes</a>
+                            <a class="nav-link" href="juguetes.html">Juguetes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pokemon.html">Ropa</a>
+                            <a class="nav-link" href="ropa.html">Ropa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="openweathermap.html">Accesorios</a>
+                            <a class="nav-link" href="accesorios.html">Accesorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
                         </li>
                     </ul>
                     <div class="row p-2 text-primary text-center fs-3 negrita">
@@ -149,7 +169,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </footer>
     <!--FIN Seccion FOOTER-->
 
@@ -163,6 +182,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
+
+    <script src="assets/js/jqueries.js"></script>
+    <script src="assets/js/reloj.js"></script>
 
 </body>
 
